@@ -1,53 +1,161 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-.main{
-  height:3.9rem;
-  width:100%;
-  background: rgb(15,15,15);
-  display:flex;
-  justify-content: space-around;
+.main {
+  height: 3.9rem;
+  width: 100%;
+  background: rgb(15, 15, 15);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
 }
-.icons{
+
+.icons {
   display: flex;
 }
-.icons img{
-  margin: 1.3rem 0rem 1.3rem 1.4rem ;
+
+.icons img {
+  margin: 1.3rem 0rem 1.3rem 1.4rem;
 }
-#search{
+
+.icons a img {
+  margin: 1.2rem 0rem .5rem 1.4rem;
+  width: 5.6rem;
+}
+
+#search {
   width: 31rem;
-  height:2.3rem;
+  height: 2.3rem;
   border: 3px solid rgb(51, 42, 42);
   border-radius: 18px 0px 0px 18px;
 }
-#searchBar{
-outline:none ;
-width: 30rem;
-height: 2.3rem;
-background: rgb(15, 15, 15);
-font-size: 18px;
-color: aliceblue;
-border: 0px;
-border-radius: 15px 0px 0px 15px; 
-padding-left:1rem ;
+
+#searchBar {
+  outline: none;
+  width: 30rem;
+  height: 2.3rem;
+  background: rgb(15, 15, 15);
+  font-size: 18px;
+  color: aliceblue;
+  border: 0px;
+  border-radius: 15px 0px 0px 15px;
+  padding-left: 1rem;
 
 }
-.search-mic{
+
+.search-mic {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#srIcon{
+
+#srIcon {
   height: 2.3rem;
   width: 3.5rem;
   border: 3px solid rgb(51, 42, 42);
   border-radius: 0px 18px 18px 0px;
   background: rgb(51, 42, 42);
 }
-#srIcon img{
-  padding-top:.5rem;
-  padding-left:.8rem;
+
+#imgSearch {
+  padding-top: .5rem;
+  padding-left: .8rem;
   max-width: 20px;
+}
+
+#mic {
+  height: 2.7rem;
+  width: 2.7rem;
+  border-radius: 22px 22px 22px 22px;
+  background: rgb(51, 42, 42);
+  margin-left: 1rem;
+}
+
+#imge {
+  padding-top: .6rem;
+  padding-left: .6rem;
+  max-width: 50px;
+}
+
+#mic:hover {
+  background: rgb(74, 65, 65);
+}
+
+.profileSection {
+  display: flex;
+}
+
+#createbtn a img {
+  height: 2.2rem;
+  width: 3.5rem;
+  margin-top: .7rem;
+}
+
+#bellbtn a img {
+  height: 1.8rem;
+  width: 1.6rem;
+  margin-top: .9rem;
+  margin-left: .6rem;
+}
+
+/* #bellbtn:hover{
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50px 50px 50px 50px;
+  background: rgb(51, 42, 42);
+  margin:.3rem .2rem .2rem .6rem;
+
+} */
+.profileSection {
+  margin-right: 3rem;
+}
+
+#user a img {
+  height: 1.6rem;
+  width: 1.6rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.mainbody {
+  display: flex;
+}
+
+#leftbody {
+  background: rgb(15, 15, 15);
+  height: 50rem;
+  width: 5rem;
+}
+
+#rightbody {
+  margin-top: 3.9rem;
+  background: rgb(128, 97, 97);
+  height: 50rem;
+  width: 100%;
+}
+
+#card {
+  height: 11rem;
+  width: 19rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px 8px 8px 8px;
+}
+
+#mainHeading h1 {
+  color: white;
+}
+
+#channelName h3 {
+  color: white;
+}
+
+#channelViews h5 {
+  color: white;
+}
+
+#image img{
+  height: 11rem;
+  width: 19rem;
 }
