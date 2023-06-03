@@ -1,15 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Carddesc from "../components/Carddesc";
+import Mainbody from "../components/Mainbody";
 const Home=()=>{
     return(
 <div>
 <Navbar/>
-<Carddesc/>
-
-
-
-
+<Mainbody/>
 </div>
 
     )

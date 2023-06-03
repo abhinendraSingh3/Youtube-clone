@@ -131,16 +131,20 @@
 
 #rightbody {
   margin-top: 3.9rem;
-  background: rgb(128, 97, 97);
+  background: rgb(15,15,15);
   height: 50rem;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }
 
 #card {
-  height: 11rem;
-  width: 19rem;
-  border: 1px solid rgb(255, 255, 255);
+  height: 15rem;
+  width: 20.2rem;
+  /* border: 1px solid rgb(255, 255, 255); */
   border-radius: 8px 8px 8px 8px;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 #mainHeading h1 {
@@ -156,6 +160,8 @@
 }
 
 #image img{
-  height: 11rem;
-  width: 19rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  
 }

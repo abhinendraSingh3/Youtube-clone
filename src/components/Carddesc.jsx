@@ -1,17 +1,25 @@
 import React from "react";
-import Mainbody from "./Mainbody";
-import thumbnail from '../images/thumbnail.jpg'
-const Carddesc=()=>{
-    return(
-<div>
-<Mainbody   
-img={thumbnail}
-heading="lelo muh me"
-channelName='Carry Minati'
-channelViews="25M"
-/>
-
-</div>
-    )
+const Carddesc = (props) => {
+    return (
+        <div>
+            <div id="card">
+                <div id="image">
+                    <img src={props.img} alt=''></img>
+                </div>
+                <div id="profileImg">
+                    <img src={props.profileImg} alt=''></img>
+                </div>
+                <div id="mainHeading">
+                    <h1>{props.heading}</h1>
+                </div>
+                <div id="channelName">
+                    <h3>{props.channelName}</h3>
+                </div>
+                <div id="channelViews">
+                    <h5>{props.channelViews}</h5>
+                </div>
+            </div>
+            </div>
+            )
 }
-export default Carddesc;
+            export default Carddesc;
