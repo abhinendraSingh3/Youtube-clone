@@ -34,6 +34,18 @@ const Mainbody = () => {
                         channelName='Carry Minati'
                         channelViews="25M"
                     />
+                    <Carddesc
+                        img={thumbnail}
+                        heading="lelo muh me"
+                        channelName='Carry Minati'
+                        channelViews="25M"
+                    />
+                    <Carddesc
+                        img={thumbnail}
+                        heading="lelo muh me"
+                        channelName='Carry Minati'
+                        channelViews="25M"
+                    />
 
                 </div>
             </div>

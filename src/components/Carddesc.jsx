@@ -1,7 +1,7 @@
 import React from "react";
 const Carddesc = (props) => {
     return (
-        <div>
+        <>
             <div id="card">
                 <div id="image">
                     <img src={props.img} alt=''></img>
@@ -19,7 +19,7 @@ const Carddesc = (props) => {
                     <h5>{props.channelViews}</h5>
                 </div>
             </div>
-            </div>
+            </>
             )
 }
             export default Carddesc;
